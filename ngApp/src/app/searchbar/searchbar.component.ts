@@ -14,7 +14,7 @@ export class SearchbarComponent implements OnInit {
   searchMusic() {
 
 
-    console.log("Test");
+    console.log(this.searchStr);
 
   }
 
