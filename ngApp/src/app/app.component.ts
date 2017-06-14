@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import {HTTP_PROVIDERS} from '@angular/http';
+
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
-  providers:[HTTP_PROVIDERS]
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'app works!';
