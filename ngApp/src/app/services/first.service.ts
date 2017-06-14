@@ -15,7 +15,7 @@ export class FirstService {
         return this._http.get(this.searchURL, {
             headers: {
                 "Authorization": "Bearer {a41f0df10a654e729a54435761b440fd}"
-            })
+            }})
         .map(res => res.json());
 
 
