@@ -16,7 +16,7 @@ export class ContentComponent implements OnInit {
   }
 
   ngAfterViewInit() {
-     renderChart(){
+
 
         console.log("chart called...");
 
@@ -67,6 +67,6 @@ Highcharts.chart('container1', {
 });
 
     }
-  }
+
 
 }
