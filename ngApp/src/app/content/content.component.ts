@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { FirstService } from '../services/first.service';
-import {Highcharts} from 'highcharts/js/highcharts.js';
+var Highcharts = require('highcharts');
+
+// Load module after Highcharts is loaded
+require('highcharts/modules/exporting')(Highcharts);
 
 @Component({
   selector: 'app-content',
@@ -17,11 +20,11 @@ export class ContentComponent implements OnInit {
 
   ngAfterViewInit() {
 
-var _highcharts: Highcharts;
+
 
         console.log("chart called...");
 
-_highcharts.chart('container1', {
+Hhighcharts.chart('container1', {
 
     title: {
         text: 'Solar Employment Growth by Sector, 2010-2016'
