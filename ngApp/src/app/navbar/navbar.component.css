@@ -6,3 +6,10 @@
     background-image: url("analytics.png");
     background-size: cover;
 }
+
+.navbar { background-color: #330066; border-color: #330066; color: white;}
+
+.navbar-nav > li > a:hover {
+    background-color: #74AFAD;
+	border-color: #74AFAD;
+}
