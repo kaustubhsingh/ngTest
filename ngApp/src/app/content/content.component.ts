@@ -26,7 +26,7 @@ export class ContentComponent implements OnInit {
 
         console.log("chart called...");
 
-Hhighcharts.chart('container1', {
+Highcharts.chart('container1', {
 
     title: {
         text: 'Solar Employment Growth by Sector, 2010-2016'
