@@ -9,7 +9,7 @@ export class ContentComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngAfterViewInit() {
 
 
 console.log("chart called...");
