@@ -17,10 +17,11 @@ export class ContentComponent implements OnInit {
 
   ngAfterViewInit() {
 
+var _highcharts: Highcharts;
 
         console.log("chart called...");
 
-Highcharts.chart('container1', {
+_highcharts.chart('container1', {
 
     title: {
         text: 'Solar Employment Growth by Sector, 2010-2016'
