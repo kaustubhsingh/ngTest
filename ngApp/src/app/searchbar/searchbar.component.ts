@@ -12,14 +12,14 @@ export class SearchbarComponent implements OnInit {
 
   constructor(private _firstservice: FirstService) { }
 
-  searchMusic() {
+  // searchMusic() {
 
 
-    this._firstservice.searchMusic(this.searchStr).subscribe( res => {
-      console.log(res.artists.items);
-    })
+  //   this._firstservice.searchMusic(this.searchStr).subscribe( res => {
+  //     console.log(res.artists.items);
+  //   })
 
-  }
+  // }
 
   ngOnInit() {
   }

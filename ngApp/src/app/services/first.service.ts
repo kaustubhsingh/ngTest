@@ -1,6 +1,8 @@
 import {Injectable} from '@angular/core';
 import {Http, Headers} from '@angular/http';
 import 'rxjs/add/operator/map';
+import 'https://code.highcharts.com/highcharts.js'
+import 'https://code.highcharts.com/modules/exporting.js'
 
 @Injectable()
 export class FirstService {
