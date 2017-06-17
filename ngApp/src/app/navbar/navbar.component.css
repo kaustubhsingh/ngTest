@@ -4,5 +4,5 @@
 
 .jumbotron {
     background-image: url("analytics.png");
-    background-image: url("analytics.png"), linear-gradient(#eb01a5, #d13531);
+    background-size: cover;
 }
