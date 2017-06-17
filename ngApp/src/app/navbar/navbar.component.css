@@ -3,7 +3,7 @@
 
 
 .jumbotron {
-    background-color: #6d7993;
+    background-color: #9099a2;
     color: white;
 }
 
@@ -11,6 +11,6 @@
 
 .navbar-nav > li > a:hover {
     background-color: #9099a2;
-	border-color: #9099a2;
+	border-color: #000066;
 }
 
