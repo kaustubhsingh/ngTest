@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FirstService } from '../services/first.service';
-import {Highcharts} from 'highcharts';
+import {Highcharts} from 'highcharts/js/highcharts.js';
 
 @Component({
   selector: 'app-content',
