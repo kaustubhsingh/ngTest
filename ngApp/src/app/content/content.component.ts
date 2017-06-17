@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FirstService } from '../services/first.service';
+
+declare function require(name:string);
 var Highcharts = require('highcharts');
 
 // Load module after Highcharts is loaded
