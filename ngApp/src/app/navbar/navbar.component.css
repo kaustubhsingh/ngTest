@@ -3,8 +3,7 @@
 
 
 .jumbotron {
-    background-image: url("analytics.png");
-    background-size: cover;
+    background-color: #96858F;
 }
 
 .navbar { background-color: #330066; border-color: #330066; color: white;}
