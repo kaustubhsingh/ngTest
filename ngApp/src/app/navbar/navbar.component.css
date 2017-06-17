@@ -7,10 +7,10 @@
     color: white;
 }
 
-.navbar { background-color: #96858f; border-color: #96858f; color: white;}
+.navbar { background-color: #6d7993; border-color: #6d7993; color: white;}
 
 .navbar-nav > li > a:hover {
-    background-color: #000066;
-	border-color: #000066;
+    background-color: #9099a2;
+	border-color: #9099a2;
 }
 
