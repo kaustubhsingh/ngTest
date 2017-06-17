@@ -4,8 +4,7 @@ import 'rxjs/add/operator/map';
 
 declare var Highcharts: any;
 
-import 'https://code.highcharts.com/highcharts.js';
-import 'https://code.highcharts.com/modules/exporting.js';
+import {Highcharts} from 'highcharts';
 
 @Injectable()
 export class FirstService {
